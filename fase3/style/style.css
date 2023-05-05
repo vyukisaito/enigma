@@ -5,9 +5,17 @@ body {
 }
 
 section {
-    margin: 60vh;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
 }
 
 #anagrama {
+    color: white;
+
+}
+
+#exemplo {
+
     color: white;
 }
