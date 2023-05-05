@@ -4,8 +4,8 @@ let resposta = document.getElementById('resposta')
 function res() {
     let answer = prompt('Digite sua resposta:')
 
-    if (answer === 'benevides') {
-        window.location.href = 'https://vyukisaito.github.io/enigma/fase2/'
+    if (answer === 'cidade de deus') {
+        window.location.href = ''
     } else if (answer === '' || answer === null) {
         alert('pq não preencheu???');
     } else {
