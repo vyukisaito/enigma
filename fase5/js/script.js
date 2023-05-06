@@ -4,15 +4,11 @@ let resposta = document.getElementById('resposta')
 function res() {
     let answer = prompt('Digite sua resposta:')
 
-    if (answer === 'sbpv') {
+    if (answer === 'estatua') {
         window.location.href = ''
     } else if (answer === '' || answer === null) {
         alert('pq não preencheu???');
     } else {
         alert('eRRRRRRRRRRou pense mais');
     }
-}
-
-function clicar() {
-    alert('DICA: tem palavras escondas!')
-}
+} s

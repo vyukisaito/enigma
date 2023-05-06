@@ -8,6 +8,8 @@ section {
     background-color: blue;
     height: 100px;
     width: 100px;
+    margin: auto;
+    margin-top: 20vh;
 }
 
 #anagrama {
@@ -16,6 +18,10 @@ section {
 }
 
 #exemplo {
+    margin-top: 40vh;
+    color: rgb(0, 0, 0);
+}
 
-    color: white;
+#click {
+    margin-top: 120vh;
 }
