@@ -1,9 +1,13 @@
 body {
     background-color: black;
     color: white;
-    text-align: center;
 }
 
 section {
     margin-top: 40vh;
+    margin-left: 45vw;
+}
+
+p {
+    text-align: left;
 }
