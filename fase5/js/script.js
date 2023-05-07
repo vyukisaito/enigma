@@ -4,9 +4,13 @@ let resposta = document.getElementById('resposta')
 function res() {
     let answer = prompt('Digite sua resposta:')
 
-    if (answer === 'menino jesus' || 'menino deus' || 'menino de Deus' || 'menino Jesus' || 'menino jesus ' || 'menino deus ' || 'menino de Deus ' || 'menino Jesus ') {
+    if (answer === null) {
+        return; // encerra a função se a resposta for 'null'
+    }
+
+    if (answer === 'menino jesus' || answer === 'menino deus' || answer === 'menino jesus ' || answer === 'menino deus ') {
         window.location.href = 'https://vyukisaito.github.io/enigma/fase6/'
-    } else if (answer === '' || answer === null) {
+    } else if (answer === '') {
         alert('pq não preencheu???');
     } else {
         alert('eRRRRRRRRRRou pense mais');
