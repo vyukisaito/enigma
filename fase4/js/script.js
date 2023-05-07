@@ -5,7 +5,7 @@ function res() {
     let answer = prompt('Digite sua resposta:')
 
     if (answer === 'cruz') {
-        window.location.href = ''
+        window.location.href = 'https://vyukisaito.github.io/enigma/fase5/'
     } else if (answer === '' || answer === null) {
         alert('pq não preencheu???');
     } else {

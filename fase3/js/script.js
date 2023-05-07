@@ -5,7 +5,7 @@ function res() {
     let answer = prompt('Digite sua resposta:')
 
     if (answer === 'sbpv') {
-        window.location.href = ''
+        window.location.href = 'https://vyukisaito.github.io/enigma/fase4/'
     } else if (answer === '' || answer === null) {
         alert('pq não preencheu???');
     } else {
