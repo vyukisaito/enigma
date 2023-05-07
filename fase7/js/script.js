@@ -9,7 +9,7 @@ function res() {
     }
 
     if (answer === 'ver-o-peso' || 'ver o peso' || 'ver-o-peso ' || 'ver o peso ') {
-        window.location.href = 'https://vyukisaito.github.io/enigma/fase6/'
+        alert(`Parabéns!! Vocês Venceram o enigma!!`)
     } else if (answer === '') {
         alert('pq não preencheu???');
     } else {
