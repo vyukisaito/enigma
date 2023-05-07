@@ -18,5 +18,5 @@ function res() {
 }
 
 function clicar() {
-    alert('DICA: tem palavras escondas!')
+    alert('DICA: tem palavras escondidas!')
 }
