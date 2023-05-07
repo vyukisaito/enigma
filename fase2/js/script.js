@@ -9,7 +9,7 @@ function res() {
     }
 
     if (answer === 'cidade de deus' || 'cidade de deus ') {
-        window.location.href = 'https://vyukisaito.github.io/enigma/fase6/'
+        window.location.href = 'https://vyukisaito.github.io/enigma/fase3/'
     } else if (answer === '') {
         alert('pq não preencheu???');
     } else {

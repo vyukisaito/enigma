@@ -9,7 +9,7 @@ function res() {
     }
 
     if (answer === 'benevides' || 'benevides ') {
-        window.location.href = 'https://vyukisaito.github.io/enigma/fase6/'
+        window.location.href = 'https://vyukisaito.github.io/enigma/fase2/'
     } else if (answer === '') {
         alert('pq não preencheu???');
     } else {
