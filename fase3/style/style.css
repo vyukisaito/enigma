@@ -23,4 +23,13 @@ section {
 
 #click {
     margin-top: 120vh;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+
+}
+
+:hover#click {
+    background-color: rgb(255, 2, 2);
+    cursor: pointer;
 }
