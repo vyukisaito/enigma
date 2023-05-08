@@ -8,7 +8,7 @@ function res() {
         return; // encerra a função se a resposta for 'null'
     }
 
-    if (answer === 'sbpv' || 'sbpv ') {
+    if (answer === 'sbpv' || answer === 'sbpv ') {
         window.location.href = 'https://vyukisaito.github.io/enigma/fase4/'
     } else if (answer === '') {
         alert('pq não preencheu???');

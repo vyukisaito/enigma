@@ -8,7 +8,7 @@ function res() {
         return; // encerra a função se a resposta for 'null'
     }
 
-    if (answer === 'benevides' || 'benevides ') {
+    if (answer === 'benevides' || answer === 'benevides ') {
         window.location.href = 'https://vyukisaito.github.io/enigma/fase2/'
     } else if (answer === '') {
         alert('pq não preencheu???');

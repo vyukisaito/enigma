@@ -8,7 +8,7 @@ function res() {
         return; // encerra a função se a resposta for 'null'
     }
 
-    if (answer === 'cruz' || 'cruz ') {
+    if (answer === 'cruz' || answer === 'cruz ') {
         window.location.href = 'https://vyukisaito.github.io/enigma/fase5/'
     } else if (answer === '') {
         alert('pq não preencheu???');

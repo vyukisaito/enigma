@@ -8,7 +8,7 @@ function res() {
         return; // encerra a função se a resposta for 'null'
     }
 
-    if (answer === 'cidade de deus' || 'cidade de deus ') {
+    if (answer === 'cidade de deus' || answer === 'cidade de deus ') {
         window.location.href = 'https://vyukisaito.github.io/enigma/fase3/'
     } else if (answer === '') {
         alert('pq não preencheu???');
