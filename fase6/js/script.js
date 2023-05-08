@@ -7,8 +7,7 @@ function res() {
     if (answer === null) {
         return; // encerra a função se a resposta for 'null'
     }
-
-    if (answer === 'pv' || 'pv ') {
+    if (answer === 'pv' || answer === 'pv ') {
         window.location.href = 'https://vyukisaito.github.io/enigma/fase7/'
     } else if (answer === '') {
         alert('pq não preencheu???');

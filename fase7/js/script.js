@@ -8,7 +8,7 @@ function res() {
         return; // encerra a função se a resposta for 'null'
     }
 
-    if (answer === 'ver-o-peso' || 'ver o peso' || 'ver-o-peso ' || 'ver o peso ') {
+    if (answer === 'ver-o-peso' || answer === 'ver o peso' || answer === 'ver-o-peso ' || answer === 'ver o peso ') {
         alert(`Parabéns!! Vocês Venceram o enigma!!`)
     } else if (answer === '') {
         alert('pq não preencheu???');
