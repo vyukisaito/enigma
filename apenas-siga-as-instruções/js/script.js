@@ -9,7 +9,7 @@ function res() {
     }
 
     if (answer === 'cruz' || answer === 'cruz ') {
-        window.location.href = 'https://vyukisaito.github.io/enigma/fase5/'
+        window.location.href = 'https://vyukisaito.github.io/enigma/-1.3659039,%20-48.3453059/'
     } else if (answer === '') {
         alert('pq não preencheu???');
     } else {

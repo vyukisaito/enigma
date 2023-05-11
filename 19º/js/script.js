@@ -9,7 +9,7 @@ function res() {
     }
 
     if (answer === 'cidade de deus' || answer === 'cidade de deus ') {
-        window.location.href = 'https://vyukisaito.github.io/enigma/fase3/'
+        window.location.href = 'https://vyukisaito.github.io/enigma/dmitri-mendeleiev/'
     } else if (answer === '') {
         alert('pq não preencheu???');
     } else {

@@ -9,7 +9,7 @@ function res() {
     }
 
     if (answer === 'menino jesus' || answer === 'menino deus' || answer === 'menino jesus ' || answer === 'menino deus ') {
-        window.location.href = 'https://vyukisaito.github.io/enigma/fase6/'
+        window.location.href = 'https://vyukisaito.github.io/enigma/direção/'
     } else if (answer === '') {
         alert('pq não preencheu???');
     } else {

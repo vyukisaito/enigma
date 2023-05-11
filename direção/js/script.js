@@ -8,7 +8,7 @@ function res() {
         return; // encerra a função se a resposta for 'null'
     }
     if (answer === 'pv' || answer === 'pv ') {
-        window.location.href = 'https://vyukisaito.github.io/enigma/fase7/'
+        window.location.href = 'https://vyukisaito.github.io/enigma/mercado/'
     } else if (answer === '') {
         alert('pq não preencheu???');
     } else {

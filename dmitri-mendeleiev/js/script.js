@@ -9,7 +9,7 @@ function res() {
     }
 
     if (answer === 'sbpv' || answer === 'sbpv ') {
-        window.location.href = 'https://vyukisaito.github.io/enigma/fase4/'
+        window.location.href = 'https://vyukisaito.github.io/enigma/apenas-siga-as-instruções/'
     } else if (answer === '') {
         alert('pq não preencheu???');
     } else {
