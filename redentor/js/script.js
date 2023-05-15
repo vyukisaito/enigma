@@ -9,7 +9,7 @@ function res() {
     }
 
     if (answer === 'menino jesus' || answer === 'menino deus' || answer === 'menino jesus ' || answer === 'menino deus ' || answer === 'menino de jesus' || answer === 'menino de deus' || answer === 'menino de jesus ' || answer === 'menino de deus') {
-        window.location.href = 'https://vyukisaito.github.io/enigma/direção/'
+        window.location.href = 'https://vyukisaito.github.io/enigma/substitua/'
     } else if (answer === '') {
         alert('pq não preencheu???');
     } else {

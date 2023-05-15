@@ -9,7 +9,7 @@ function res() {
     }
 
     if (answer === 'cruz' || answer === 'cruz ') {
-        window.location.href = 'https://vyukisaito.github.io/enigma/-1.3659039,%20-48.3453059/'
+        window.location.href = 'https://vyukisaito.github.io/enigma/redentor/'
     } else if (answer === '') {
         alert('pq não preencheu???');
     } else {
