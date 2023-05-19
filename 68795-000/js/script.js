@@ -9,7 +9,7 @@ function res() {
     }
 
     if (answer === 'benevides' || answer === 'benevides ') {
-        window.location.href = 'https://vyukisaito.github.io/enigma/19º/'
+        window.location.href = 'https://vyukisaito.github.io/enigma/livro/'
     } else if (answer === '') {
         alert('pq não preencheu???');
     } else {
